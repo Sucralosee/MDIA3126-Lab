@@ -6,8 +6,8 @@ export default function ProfileImage( {imageToAdd} ) {
             <Image 
                 source={{ uri: imageToAdd}} 
                 style={{
-                    width: 160,
-                    height: 160, 
+                    width: 180,
+                    height: 180, 
                     borderRadius: 12,
                 }}
             />        

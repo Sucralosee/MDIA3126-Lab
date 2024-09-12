@@ -4,7 +4,13 @@ import Profile from "@/components/molecules/profile";
 
 export default function Index() {
   return (
-    <View>
+    <View
+      style={{
+        alignItems:"center"
+        
+      }}
+
+    >
       <Profile 
         SingleLineText="Bulbasaur"
         multiLineText="🌱 Kanto native, born in Pallet Town.

@@ -5,7 +5,7 @@ export default function SingleLine( {SingleLineText}) {
         <View>
             <Text
                 style={{
-                    color:"black",
+                    color:"#132B1D",
                     fontSize: 36,
                     fontWeight: "bold",
                 }}

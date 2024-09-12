@@ -8,17 +8,31 @@ export default function Profile( {SingleLineText,multiLineText,imageToAdd} ) {
   return (
     <View 
         style={{
-            width: 480,
-            height: 240,
+            width: 640,
+            height: 220,
             justifyContent: "center",
             alignItems: "center",
-            margin: 48,
-            backgroundColor: "tan" 
+            flexDirection:"row",
+            margin: 64,
+            backgroundColor: "#D5E3C9", 
+            borderRadius: 16,
         }}
     >
-      <SingleLine SingleLineText={SingleLineText} />
-      <MultiLine multiLineText={multiLineText}/>
-      <ProfileImage imageToAdd={imageToAdd} />
+        <div 
+            style={{
+
+            }}
+        >
+            <ProfileImage imageToAdd={imageToAdd} />
+        </div>
+        <div
+            style={{
+                padding: 24,
+            }}
+        >
+            <SingleLine SingleLineText={SingleLineText} />
+            <MultiLine multiLineText={multiLineText}/>
+        </div>
     </View>
   );
 }

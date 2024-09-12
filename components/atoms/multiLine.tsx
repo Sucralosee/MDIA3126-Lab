@@ -5,8 +5,8 @@ export default function MultiLine( {multiLineText}) {
         <View>
             <Text
                 style={{
-                    color:"green"
-                    
+                    color:"#132B1D",
+                    paddingTop: 16,
                 }}
             >
                 {multiLineText}    
